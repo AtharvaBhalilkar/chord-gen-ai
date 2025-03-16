@@ -1,4 +1,4 @@
-import gdown # type: ignore
+import gdown
 import os
 
 file_id = "1QpwFwGbm8xAdTpMfxnBEzFNnoFougW0g"
@@ -16,7 +16,7 @@ def fetch_and_save():
     print('Fetching dataset...')
 
     # google drive url that contains the dataset
-    url = 'https://drive.google.com/file/d/1QpwFwGbm8xAdTpMfxnBEzFNnoFougW0g/view?usp=drive_link'
+    url = 'https://drive.google.com/uc?id=1QpwFwGbm8xAdTpMfxnBEzFNnoFougW0g'
 
     # download using gdown with fuzzy option
     gdown.download(url, output_file, quiet=False, fuzzy=True)
