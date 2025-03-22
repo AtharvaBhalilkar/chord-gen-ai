@@ -6,3 +6,5 @@ torch==1.13.1
 gdown==4.6.0
 huggingface-hub==0.12.1
 music21==6.7.1
+scikit-learn==1.6.1
+missingno==0.5.2
